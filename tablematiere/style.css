@@ -1,0 +1,54 @@
+body {
+font-family: 'Poppins', sans-serif;
+}
+
+body:active {
+
+    background: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.titre {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(111, 101, 252);
+    box-shadow:  5px 5px rgb(100, 115, 255), -3em 0 .4em rgb(77, 255, 54);
+}
+
+.titre:hover {
+    background-color: blueviolet;
+    
+}
+
+.intro {
+    text-decoration: underline;
+    color: rgb(111, 101, 252);
+    font-size: 1.5rem;
+
+}
+
+.conclu {
+    text-decoration: underline;
+    color: rgb(111, 101, 252);
+    font-size: 1.5rem;
+}
+
+.main-title {
+    text-decoration: underline;
+    list-style: none;
+    font-weight: bold;
+    color: rgb(55, 45, 192);
+    font-size: 1.2rem;
+}
+
+.sous-partie {
+    color: rgb(131, 123, 248);
+    font-size: 1.1rem;
+}
+
+.partie {
+    color: rgb(112, 107, 207);
+    font-style: italic;
+}
