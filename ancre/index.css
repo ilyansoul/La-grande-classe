@@ -1,0 +1,47 @@
+*body {
+    margin: 0;
+    padding: 0;
+}
+
+#img-1 {
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    justify-content:space-around;
+    position: fixed;
+    align-items: center;
+    
+}
+
+.navbar a {
+    color: white;
+    list-style: none;
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+
+.nabvar a:hover {
+    background: white;
+    color: black;
+}
+
+h3 {
+    margin-top:100px;
+    
+}
+
