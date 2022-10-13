@@ -1,0 +1,53 @@
+* {
+        font-family: 'Rosario', sans-serif;
+}
+
+
+.titre {
+    color: rgb(156, 33, 33);
+    font-size: 2em;
+    text-align: center;
+    box-shadow: 2px 2px 2px;
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1em;
+}
+
+
+.one {
+        font-family: 'Rosario', sans-serif;
+        
+        
+}
+
+.two {
+    background: url(https://images.unsplash.com/photo-1611732764716-de3c098fa48a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRpZXNlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60);
+    height: 70vh;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.one a:hover {
+    font-weight: bold;
+}
+
+
+
+.three {
+
+        background: url(https://images.unsplash.com/photo-1637417168775-532c76fa4fa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+        height: 70vh;
+        
+    }
+
+    .four {
+        font-family: 'Rosario', sans-serif;
+        
+        box-shadow: 2px 2px 2px black;
+    }
