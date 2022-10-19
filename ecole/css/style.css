@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Verdana", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.main-nav {
+  background-color: orange;
+  height: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px 0px;
+  height: 2rem;
+}
+
+.main-nav a {
+  margin: 0px 30px;
+  text-decoration: none;
+  list-style: none;
+  padding: 2px 5px;
+}
+
+.container1 {
+  height: 170px;
+  display: flex;
+  background-color: lightblue;
+  margin: 0px 0px 0px 0px;
+}
+.container1 img {
+  background-color: lightblue;
+}
+.container1 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 500px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: orange;
+}
+
+.sommaire {
+  border-width: 2px;
+  width: 384px;
+  height: auto;
+  margin: 10px;
+  padding: 10px 0px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+.sommaire a {
+  padding: 10px 0px;
+  text-decoration: none;
+}
+.sommaire li {
+  padding: 5px 20px;
+  border: 2px solid black;
+  border-radius: 25px;
+  list-style: none;
+  color: white;
+  background-color: orangered;
+}
+.sommaire li:hover {
+  color: #000;
+}
+
+.calendar {
+  position: relative;
+  width: 300px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px 20px;
+  background-color: orangered;
+}
+
+.calendar__picture {
+  position: relative;
+  height: 200px;
+  padding: 20px;
+  color: rgb(20, 5, 5);
+  background: #262626 url(https://media.istockphoto.com/photos/students-raising-their-hands-during-class-picture-id469968322?k=20&m=469968322&s=612x612&w=0&h=4qvEEye47ZWsS2mRfSNuc5hV0qSvScF-kwp_yIfexFE=) no-repeat center/cover;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  top: 0px;
+}
+.calendar__picture h2 {
+  margin: 0;
+}
+.calendar__picture h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.calendar__date {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 10px;
+  box-sizing: border-box;
+}
+
+.calendar__day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.calendar__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  color: #262626;
+}
+.calendar__number--current, .calendar__number:hover {
+  background-color: #009688;
+  color: #fff !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.news {
+  width: 384px;
+  height: 136px;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: orangered;
+}
+
+.partenaire {
+  border: 2px solid black;
+  width: 384px;
+  height: 328px;
+  border-radius: 25px;
+  margin: 0px 0px 0px 10px;
+  background-color: orangered;
+}
+.partenaire h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.partenaire img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+  left: 80px;
+  height: 90px;
+  width: 200px;
+}
+
+* .contenu {
+  padding: 30px;
+  height: 460px;
+  width: 1460px;
+}
+* .contenu h3 {
+  background-color: orangered;
+  font-size: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+* .contenu a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px;
+  list-style: none;
+}
+* .contenu p {
+  font-size: 12px;
+  font-style: italic;
+}
+li {
+  text-decoration: underline;
+  text-decoration-color: black ;
+}
+
+button {
+  background-color: lightblue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  background-color: orange;
+  background: linear-gradient(0deg, rgb(212, 172, 13) 0%, rgb(246, 90, 12) 100%);
+  width: 100%;
+  text-align: center;
+}
+footer a {
+  text-decoration: underline;
+  color: black;
+  padding: 6px;
+}/*# sourceMappingURL=style.css.map */
