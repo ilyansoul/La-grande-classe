@@ -1,0 +1,26 @@
+#dark {
+    padding: 6px 12px;
+    
+    border-radius: 10px;
+}
+
+#light {
+    padding: 6px 12px;
+    border-radius: 10px;
+    
+}
+
+#themeDark {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(8, 197, 90);
+    border-radius: 10px;
+    border: 2px solid rgb(1, 1, 72);
+}
+#themeLight {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 225, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+}
